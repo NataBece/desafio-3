@@ -1,0 +1,108 @@
+
+body, header, main, .carac, .imgs, footer {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+header {
+  height: 900px;
+  background-image: url("../img/bg-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-size: 50px;
+  background-color: black;
+  margin: 0%;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+}
+
+
+main {
+  display: flow-root;
+  margin: auto;
+  width: 80%;
+  margin-top: 3%;
+  height: 290px;
+}
+
+main div{
+  float: left;
+  font-size: 16px; 
+  width: 470px;
+  height: 98px;
+  color: white;
+}
+
+main img {
+  float: right;
+  width: 38%;
+  height: 237px;
+}
+
+
+.carac{
+  background-color: #1e1a13;
+  height: 348px;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+.carac h2{
+  color: white;
+  font-size: 40px;
+  margin: 0%;
+  position: relative;
+  top:10%;
+}
+
+.carac div{
+  display: inline-block;
+  color: white;
+  margin: 0 auto;
+  margin-top: 130px;
+  width: 26%;
+}
+
+.carac i{
+  font-size: 57px;
+}
+
+.caract p{
+  font-size: 24px;
+}
+
+.imgs { 
+  display: inline-block;
+  height: 348px;
+  width: 100%;
+  text-align: center;
+  margin-top: 71px;
+}
+.imgs img {
+ 
+  height: 258px;
+  margin: 10px;
+  width: 26%;
+}
+
+footer {
+  background-color: #1e1a13;
+  height: 80px;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  margin: auto;
+}
